@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EnviroScope
 
-## Getting Started
+## Description
 
-First, run the development server:
+EnviroScope is an application developed as a project for the ENGR 490 class. 
+This application focuses on environmental monitoring, presenting real-time air quality 
+and pollution data across various cities with advanced data visualization techniques 
+and Google Maps integration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Team Members
+- Ali Eren Yoğurtçu
+- Aybüke Bulut
+- Elif Ekşi
+- Mehmet Doğukan Hiçyılmaz
+- Murat Kaan Gökyıldız
+- Mustafa Öncü
+- Uğur Evren Çamalan
+- Utku Oktay
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Real-Time Air Quality Monitoring**: View up-to-date air pollution data for each city.
+- **Interactive Data Visualization**: Includes heatmaps, network graphs, and geospatial mappings.
+- **Google Maps Integration**: Visualize sensor locations and pollution data on maps.
+- **Advanced Analytics**: Deep dive into environmental data with sophisticated analytical tools.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:aliereny/enviroscpoe.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Set up environment variables:
+    - Rename `.env.example` to `.env`.
+    - Fill in your Google Maps API key and other relevant variables.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Navigate to https://enviroscpoe.vercel.app/ to access the application.
+- Explore different cities' air quality data through interactive maps and charts.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the [MIT License](LICENSE).

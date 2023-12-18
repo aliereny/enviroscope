@@ -1,0 +1,704 @@
+{
+  "analysisId": "5sensor",
+  "totalAirPollutionWeightedTransportationCost": 115.84448000000003,
+  "sensors": [
+    {
+      "id": "city20",
+      "measurements": [
+        {
+          "locationId": "city3",
+          "location": {
+            "lat": 38.7569,
+            "lng": 30.5387
+          },
+          "margin": 1.44947
+        },
+        {
+          "locationId": "city7",
+          "location": {
+            "lat": 36.8969,
+            "lng": 30.7133
+          },
+          "margin": 1.43868
+        },
+        {
+          "locationId": "city9",
+          "location": {
+            "lat": 37.838,
+            "lng": 27.8456
+          },
+          "margin": 1.21615
+        },
+        {
+          "locationId": "city15",
+          "location": {
+            "lat": 37.7183,
+            "lng": 30.2823
+          },
+          "margin": 1.18237
+        },
+        {
+          "locationId": "city20",
+          "location": {
+            "lat": 37.783,
+            "lng": 29.0963
+          },
+          "margin": 1.10135
+        },
+        {
+          "locationId": "city32",
+          "location": {
+            "lat": 37.7626,
+            "lng": 30.5537
+          },
+          "margin": 1.23079
+        },
+        {
+          "locationId": "city35",
+          "location": {
+            "lat": 38.4237,
+            "lng": 27.1428
+          },
+          "margin": 1.33442
+        },
+        {
+          "locationId": "city42",
+          "location": {
+            "lat": 37.8746,
+            "lng": 32.4932
+          },
+          "margin": 1.4317
+        },
+        {
+          "locationId": "city45",
+          "location": {
+            "lat": 38.614,
+            "lng": 27.4296
+          },
+          "margin": 1.36273
+        },
+        {
+          "locationId": "city48",
+          "location": {
+            "lat": 37.2154,
+            "lng": 28.3634
+          },
+          "margin": 1.23564
+        },
+        {
+          "locationId": "city64",
+          "location": {
+            "lat": 38.6742,
+            "lng": 29.4059
+          },
+          "margin": 1.35868
+        }
+      ],
+      "location": {
+        "lat": 37.783,
+        "lng": 29.0963
+      },
+      "color": "#34352f"
+    },
+    {
+      "id": "city29",
+      "measurements": [
+        {
+          "locationId": "city4",
+          "location": {
+            "lat": 39.7191,
+            "lng": 43.0506
+          },
+          "margin": 1.64235
+        },
+        {
+          "locationId": "city5",
+          "location": {
+            "lat": 40.6565,
+            "lng": 35.8373
+          },
+          "margin": 1.42369
+        },
+        {
+          "locationId": "city8",
+          "location": {
+            "lat": 41.1809,
+            "lng": 41.8208
+          },
+          "margin": 1.48015
+        },
+        {
+          "locationId": "city19",
+          "location": {
+            "lat": 40.5499,
+            "lng": 34.9537
+          },
+          "margin": 1.76111
+        },
+        {
+          "locationId": "city24",
+          "location": {
+            "lat": 39.7468,
+            "lng": 39.4911
+          },
+          "margin": 1.41326
+        },
+        {
+          "locationId": "city25",
+          "location": {
+            "lat": 39.9055,
+            "lng": 41.2658
+          },
+          "margin": 1.48937
+        },
+        {
+          "locationId": "city28",
+          "location": {
+            "lat": 40.9175,
+            "lng": 38.3927
+          },
+          "margin": 1.20522
+        },
+        {
+          "locationId": "city29",
+          "location": {
+            "lat": 40.4608,
+            "lng": 39.4803
+          },
+          "margin": 1.06142
+        },
+        {
+          "locationId": "city36",
+          "location": {
+            "lat": 40.6013,
+            "lng": 43.0975
+          },
+          "margin": 1.53135
+        },
+        {
+          "locationId": "city52",
+          "location": {
+            "lat": 40.9862,
+            "lng": 37.8797
+          },
+          "margin": 1.26396
+        },
+        {
+          "locationId": "city53",
+          "location": {
+            "lat": 41.0255,
+            "lng": 40.5177
+          },
+          "margin": 1.2444
+        },
+        {
+          "locationId": "city55",
+          "location": {
+            "lat": 41.2797,
+            "lng": 36.3361
+          },
+          "margin": 1.46973
+        },
+        {
+          "locationId": "city58",
+          "location": {
+            "lat": 39.7505,
+            "lng": 37.015
+          },
+          "margin": 1.55016
+        },
+        {
+          "locationId": "city60",
+          "location": {
+            "lat": 40.3235,
+            "lng": 36.5522
+          },
+          "margin": 1.49261
+        },
+        {
+          "locationId": "city61",
+          "location": {
+            "lat": 41.0027,
+            "lng": 39.7168
+          },
+          "margin": 1.20421
+        },
+        {
+          "locationId": "city66",
+          "location": {
+            "lat": 39.821,
+            "lng": 34.8086
+          },
+          "margin": 1.62054
+        },
+        {
+          "locationId": "city69",
+          "location": {
+            "lat": 40.2603,
+            "lng": 40.228
+          },
+          "margin": 1.18947
+        },
+        {
+          "locationId": "city75",
+          "location": {
+            "lat": 41.113,
+            "lng": 42.7023
+          },
+          "margin": 1.53705
+        },
+        {
+          "locationId": "city76",
+          "location": {
+            "lat": 39.9201,
+            "lng": 44.0436
+          },
+          "margin": 1.66382
+        }
+      ],
+      "location": {
+        "lat": 40.4608,
+        "lng": 39.4803
+      },
+      "color": "#64ae59"
+    },
+    {
+      "id": "city54",
+      "measurements": [
+        {
+          "locationId": "city6",
+          "location": {
+            "lat": 39.9334,
+            "lng": 32.8597
+          },
+          "margin": 2.40846
+        },
+        {
+          "locationId": "city10",
+          "location": {
+            "lat": 39.6533,
+            "lng": 27.8903
+          },
+          "margin": 1.49262
+        },
+        {
+          "locationId": "city11",
+          "location": {
+            "lat": 40.1426,
+            "lng": 29.9793
+          },
+          "margin": 1.26239
+        },
+        {
+          "locationId": "city14",
+          "location": {
+            "lat": 40.7325,
+            "lng": 31.6082
+          },
+          "margin": 1.15538
+        },
+        {
+          "locationId": "city16",
+          "location": {
+            "lat": 40.1885,
+            "lng": 29.061
+          },
+          "margin": 1.26496
+        },
+        {
+          "locationId": "city17",
+          "location": {
+            "lat": 40.1467,
+            "lng": 26.4086
+          },
+          "margin": 1.49902
+        },
+        {
+          "locationId": "city18",
+          "location": {
+            "lat": 40.6002,
+            "lng": 33.6162
+          },
+          "margin": 1.46996
+        },
+        {
+          "locationId": "city22",
+          "location": {
+            "lat": 41.6771,
+            "lng": 26.5557
+          },
+          "margin": 1.54487
+        },
+        {
+          "locationId": "city26",
+          "location": {
+            "lat": 39.7667,
+            "lng": 30.5256
+          },
+          "margin": 1.36915
+        },
+        {
+          "locationId": "city34",
+          "location": {
+            "lat": 41.0082,
+            "lng": 28.9784
+          },
+          "margin": 1.18426
+        },
+        {
+          "locationId": "city37",
+          "location": {
+            "lat": 41.3766,
+            "lng": 33.7765
+          },
+          "margin": 1.45279
+        },
+        {
+          "locationId": "city39",
+          "location": {
+            "lat": 41.7355,
+            "lng": 27.2244
+          },
+          "margin": 1.50389
+        },
+        {
+          "locationId": "city40",
+          "location": {
+            "lat": 39.1461,
+            "lng": 34.1595
+          },
+          "margin": 1.75058
+        },
+        {
+          "locationId": "city41",
+          "location": {
+            "lat": 40.7654,
+            "lng": 29.9408
+          },
+          "margin": 1.06796
+        },
+        {
+          "locationId": "city43",
+          "location": {
+            "lat": 39.42,
+            "lng": 29.9857
+          },
+          "margin": 1.48938
+        },
+        {
+          "locationId": "city54",
+          "location": {
+            "lat": 40.7889,
+            "lng": 30.406
+          },
+          "margin": 1.00103
+        },
+        {
+          "locationId": "city57",
+          "location": {
+            "lat": 42.028,
+            "lng": 35.1517
+          },
+          "margin": 1.62898
+        },
+        {
+          "locationId": "city59",
+          "location": {
+            "lat": 40.9781,
+            "lng": 27.5117
+          },
+          "margin": 1.33463
+        },
+        {
+          "locationId": "city67",
+          "location": {
+            "lat": 41.4535,
+            "lng": 31.7894
+          },
+          "margin": 1.30012
+        },
+        {
+          "locationId": "city71",
+          "location": {
+            "lat": 39.8398,
+            "lng": 33.5089
+          },
+          "margin": 1.66105
+        },
+        {
+          "locationId": "city74",
+          "location": {
+            "lat": 41.6376,
+            "lng": 32.3338
+          },
+          "margin": 1.37522
+        },
+        {
+          "locationId": "city77",
+          "location": {
+            "lat": 40.6549,
+            "lng": 29.2842
+          },
+          "margin": 1.14045
+        },
+        {
+          "locationId": "city78",
+          "location": {
+            "lat": 41.1956,
+            "lng": 32.6227
+          },
+          "margin": 1.31082
+        },
+        {
+          "locationId": "city81",
+          "location": {
+            "lat": 40.8387,
+            "lng": 31.1626
+          },
+          "margin": 1.09525
+        }
+      ],
+      "location": {
+        "lat": 40.7889,
+        "lng": 30.406
+      },
+      "color": "#7351a6"
+    },
+    {
+      "id": "city72",
+      "measurements": [
+        {
+          "locationId": "city12",
+          "location": {
+            "lat": 38.8855,
+            "lng": 40.4966
+          },
+          "margin": 1.53446
+        },
+        {
+          "locationId": "city13",
+          "location": {
+            "lat": 38.4006,
+            "lng": 42.1095
+          },
+          "margin": 1.26051
+        },
+        {
+          "locationId": "city21",
+          "location": {
+            "lat": 37.925,
+            "lng": 40.211
+          },
+          "margin": 1.81532
+        },
+        {
+          "locationId": "city23",
+          "location": {
+            "lat": 38.6748,
+            "lng": 39.2225
+          },
+          "margin": 1.55283
+        },
+        {
+          "locationId": "city30",
+          "location": {
+            "lat": 37.5774,
+            "lng": 43.7368
+          },
+          "margin": 1.36086
+        },
+        {
+          "locationId": "city44",
+          "location": {
+            "lat": 38.3554,
+            "lng": 38.3335
+          },
+          "margin": 1.71239
+        },
+        {
+          "locationId": "city47",
+          "location": {
+            "lat": 37.3129,
+            "lng": 40.734
+          },
+          "margin": 1.33905
+        },
+        {
+          "locationId": "city49",
+          "location": {
+            "lat": 38.7346,
+            "lng": 41.491
+          },
+          "margin": 1.58315
+        },
+        {
+          "locationId": "city56",
+          "location": {
+            "lat": 37.9274,
+            "lng": 41.942
+          },
+          "margin": 1.28587
+        },
+        {
+          "locationId": "city62",
+          "location": {
+            "lat": 39.1062,
+            "lng": 39.5483
+          },
+          "margin": 1.50851
+        },
+        {
+          "locationId": "city65",
+          "location": {
+            "lat": 38.5012,
+            "lng": 43.373
+          },
+          "margin": 1.56677
+        },
+        {
+          "locationId": "city72",
+          "location": {
+            "lat": 37.8895,
+            "lng": 41.1293
+          },
+          "margin": 1.49196
+        },
+        {
+          "locationId": "city73",
+          "location": {
+            "lat": 37.519,
+            "lng": 42.4537
+          },
+          "margin": 1.23874
+        }
+      ],
+      "location": {
+        "lat": 37.8895,
+        "lng": 41.1293
+      },
+      "color": "#c16c45"
+    },
+    {
+      "id": "city80",
+      "measurements": [
+        {
+          "locationId": "city1",
+          "location": {
+            "lat": 36.9914,
+            "lng": 35.3308
+          },
+          "margin": 1.44488
+        },
+        {
+          "locationId": "city2",
+          "location": {
+            "lat": 37.7636,
+            "lng": 38.2773
+          },
+          "margin": 1.51166
+        },
+        {
+          "locationId": "city27",
+          "location": {
+            "lat": 37.066,
+            "lng": 37.3781
+          },
+          "margin": 1.50266
+        },
+        {
+          "locationId": "city31",
+          "location": {
+            "lat": 36.2023,
+            "lng": 36.1613
+          },
+          "margin": 1.57922
+        },
+        {
+          "locationId": "city33",
+          "location": {
+            "lat": 36.8121,
+            "lng": 34.6415
+          },
+          "margin": 1.4031
+        },
+        {
+          "locationId": "city38",
+          "location": {
+            "lat": 38.7205,
+            "lng": 35.4826
+          },
+          "margin": 1.88737
+        },
+        {
+          "locationId": "city46",
+          "location": {
+            "lat": 37.5753,
+            "lng": 36.9228
+          },
+          "margin": 1.62523
+        },
+        {
+          "locationId": "city50",
+          "location": {
+            "lat": 38.6247,
+            "lng": 34.7142
+          },
+          "margin": 1.64244
+        },
+        {
+          "locationId": "city51",
+          "location": {
+            "lat": 37.9698,
+            "lng": 34.6766
+          },
+          "margin": 1.3633
+        },
+        {
+          "locationId": "city63",
+          "location": {
+            "lat": 37.1674,
+            "lng": 38.7955
+          },
+          "margin": 1.60312
+        },
+        {
+          "locationId": "city68",
+          "location": {
+            "lat": 38.3686,
+            "lng": 34.0297
+          },
+          "margin": 1.51906
+        },
+        {
+          "locationId": "city70",
+          "location": {
+            "lat": 37.181,
+            "lng": 33.2222
+          },
+          "margin": 1.4024
+        },
+        {
+          "locationId": "city79",
+          "location": {
+            "lat": 36.7165,
+            "lng": 37.1147
+          },
+          "margin": 1.55737
+        },
+        {
+          "locationId": "city80",
+          "location": {
+            "lat": 37.0746,
+            "lng": 36.2464
+          },
+          "margin": 1.20318
+        }
+      ],
+      "location": {
+        "lat": 37.0746,
+        "lng": 36.2464
+      },
+      "color": "#9ec1cf"
+    }
+  ]
+}
