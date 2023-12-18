@@ -6,6 +6,7 @@ import { TurkeyLatLngLiteral } from "@/constants/geospatialData";
 import { Analysis, Measurement, Sensor } from "@/types";
 import { Marker } from "@react-google-maps/api";
 import { CompassTwoTone, DollarTwoTone } from "@ant-design/icons";
+import { Locations } from "@/constants/locations";
 
 const AnalysisOptions = [
   {
@@ -30,6 +31,14 @@ const AnalysisOptions = [
   },
 ];
 
+function getCircleScaleForLocationId(locationId: string): number {
+  const location = Locations.find((location) => location.id === locationId);
+  if (!location) {
+    return 8;
+  }
+
+  return 5 + Math.floor((location.pm25 / 125) * 10);
+}
 export default function AnalysisPage() {
   const [analysisId, setAnalysisId] = useState<string | undefined>(undefined);
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
@@ -154,9 +163,10 @@ export default function AnalysisPage() {
                       icon={{
                         path: 0.0,
                         fillColor: sensor.color,
-                        fillOpacity:
-                          sensor.id === measurement.locationId ? 1 : 0.8,
-                        scale: sensor.id === measurement.locationId ? 12 : 8,
+                        fillOpacity: 1,
+                        scale: getCircleScaleForLocationId(
+                          measurement.locationId,
+                        ),
                         strokeWeight: 0,
                         strokeOpacity: 0,
                       }}

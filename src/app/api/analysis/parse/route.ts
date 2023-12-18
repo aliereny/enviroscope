@@ -5,16 +5,13 @@ import LatLngLiteral = google.maps.LatLngLiteral;
 import distinctColors from "distinct-colors";
 
 function getLocation(locationId: string): LatLngLiteral {
-  const location = Locations.find((sensor) => sensor.id === locationId);
+  const location = Locations.find((item) => item.id === locationId);
 
   if (!location) {
     throw new Error("Sensor not found");
   }
 
-  return {
-    lat: location.latitude,
-    lng: location.longitude,
-  };
+  return location.location;
 }
 
 export async function POST(request: Request) {
