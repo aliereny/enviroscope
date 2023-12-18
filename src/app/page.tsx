@@ -61,7 +61,6 @@ export default function AnalysisPage() {
           }
         })
         .then((analysis) => {
-          console.log(analysis);
           setAnalysis(analysis);
         })
         .catch((error) => {

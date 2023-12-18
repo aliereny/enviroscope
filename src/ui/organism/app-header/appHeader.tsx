@@ -1,6 +1,10 @@
 "use client";
 import { Layout, Menu, theme } from "antd";
-import { PushpinOutlined, UserOutlined } from "@ant-design/icons";
+import {
+  FileExcelOutlined,
+  PushpinOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -52,6 +56,12 @@ export const AppHeader = () => {
             icon: <UserOutlined />,
             label: "Parse Analysis",
             onClick: () => router.push("/analysis/parse"),
+          },
+          {
+            key: "/api/aqi",
+            icon: <FileExcelOutlined />,
+            label: "Download AQI",
+            onClick: () => router.push("/api/aqi"),
           },
         ]}
       />
