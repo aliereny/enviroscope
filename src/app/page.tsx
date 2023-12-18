@@ -37,7 +37,7 @@ function getCircleScaleForLocationId(locationId: string): number {
     return 8;
   }
 
-  return 5 + Math.floor((location.pm25 / 125) * 10);
+  return 5 + location.pm25 / 10;
 }
 export default function AnalysisPage() {
   const [analysisId, setAnalysisId] = useState<string | undefined>(undefined);

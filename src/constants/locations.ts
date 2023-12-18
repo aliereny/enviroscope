@@ -87,7 +87,7 @@ export const Locations: LocationType[] = [
       lng: 27.8416,
     },
     label: "Aydin",
-    pm25: 9.56,
+    pm25: 29.56,
   },
   {
     id: "city10",
@@ -312,7 +312,7 @@ export const Locations: LocationType[] = [
       lng: 28.9784,
     },
     label: "Istanbul",
-    pm25: 0.7,
+    pm25: 136.43,
   },
   {
     id: "city35",
@@ -321,7 +321,7 @@ export const Locations: LocationType[] = [
       lng: 27.1287,
     },
     label: "Izmir",
-    pm25: 2.26,
+    pm25: 92.26,
   },
   {
     id: "city36",
@@ -375,7 +375,7 @@ export const Locations: LocationType[] = [
       lng: 29.8815,
     },
     label: "Kocaeli",
-    pm25: 0.73,
+    pm25: 48.73,
   },
   {
     id: "city42",
@@ -411,7 +411,7 @@ export const Locations: LocationType[] = [
       lng: 27.4289,
     },
     label: "Manisa",
-    pm25: 1.29,
+    pm25: 41.29,
   },
   {
     id: "city46",
@@ -537,7 +537,7 @@ export const Locations: LocationType[] = [
       lng: 27.5167,
     },
     label: "Tekirdag",
-    pm25: 0.5,
+    pm25: 25.98,
   },
   {
     id: "city60",
@@ -699,7 +699,7 @@ export const Locations: LocationType[] = [
       lng: 29.25,
     },
     label: "Yalova",
-    pm25: 1.36,
+    pm25: 34.32,
   },
   {
     id: "city78",
