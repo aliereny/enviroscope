@@ -374,7 +374,7 @@ export const Locations: LocationType[] = [
       lat: 40.8533,
       lng: 29.8815,
     },
-    label: "Kocaeli",
+    label: "Kocaeli, Turkey",
     pm25: 48.73,
   },
   {
