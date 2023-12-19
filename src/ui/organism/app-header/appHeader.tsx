@@ -5,21 +5,15 @@ import {
   PushpinOutlined,
   UserOutlined,
 } from "@ant-design/icons";
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export const AppHeader = () => {
   const {
     token: { borderRadiusLG },
   } = theme.useToken();
 
-  const router = useRouter();
-
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
+  const pathname = usePathname();
 
   return (
     <Layout.Header
@@ -43,25 +37,22 @@ export const AppHeader = () => {
         theme="dark"
         mode="horizontal"
         style={{ flex: 1, alignItems: "center", display: "block" }}
-        defaultSelectedKeys={[isClient ? location.pathname : "/"]}
+        selectedKeys={[pathname]}
         items={[
           {
             key: "/",
             icon: <PushpinOutlined />,
-            label: "View Analysis",
-            onClick: () => router.push("/"),
+            label: <Link href={"/"}>View Analysis</Link>,
           },
           {
             key: "/analysis/parse",
             icon: <UserOutlined />,
-            label: "Parse Analysis",
-            onClick: () => router.push("/analysis/parse"),
+            label: <Link href={"/analysis/parse"}>Parse Analysis</Link>,
           },
           {
             key: "/api/aqi",
             icon: <FileExcelOutlined />,
-            label: "Download AQI",
-            onClick: () => router.push("/api/aqi"),
+            label: <Link href={"/api/aqi"}>Download AQI</Link>,
           },
         ]}
       />
