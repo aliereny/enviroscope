@@ -1,5 +1,6 @@
 import { Locations } from "@/constants/locations";
 import * as XLSX from "xlsx";
+
 export interface AQIResponse {
   status: string;
   data: Data;

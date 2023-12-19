@@ -1,19 +1,9 @@
 "use client";
-import {
-  Alert,
-  Button,
-  Flex,
-  Form,
-  Input,
-  Space,
-  Typography,
-  Upload,
-} from "antd";
+import { Alert, Button, Flex, Input, Space, Typography } from "antd";
 import { FileUpload } from "@/ui/molecule/file-upload/fileUpload";
 import { useState } from "react";
 import { RcFile } from "antd/lib/upload";
 import { Analysis } from "@/types";
-import TextArea from "antd/es/input/TextArea";
 
 export default function ParseAnalysisPage() {
   const [file, setFile] = useState<RcFile | undefined>(undefined);

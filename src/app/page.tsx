@@ -6,7 +6,6 @@ import { TurkeyLatLngLiteral } from "@/constants/geospatialData";
 import { Analysis, Measurement, Sensor } from "@/types";
 import { Marker } from "@react-google-maps/api";
 import { CompassTwoTone, DollarTwoTone } from "@ant-design/icons";
-import { Locations } from "@/constants/locations";
 
 const AnalysisOptions = [
   {
@@ -31,19 +30,37 @@ const AnalysisOptions = [
   },
 ];
 
-function getCircleScaleForLocationId(locationId: string): number {
-  const location = Locations.find((location) => location.id === locationId);
-  if (!location) {
-    return 8;
-  }
+function fillScaleMap(sensors: Sensor[]): Map<string, number> {
+  const aqiValues = sensors
+    .map((sensor) =>
+      sensor.measurements.map((measurement) => measurement.pollution),
+    )
+    .flat();
 
-  return 5 + location.pm25 / 10;
+  const minValue = Math.min(...aqiValues);
+  const maxValue = Math.max(...aqiValues);
+  const newMin = 4;
+  const newMax = 20;
+
+  const scaleMap = new Map<string, number>();
+  sensors.forEach((sensor) => {
+    sensor.measurements.forEach((measurement) => {
+      scaleMap.set(
+        measurement.locationId,
+        ((measurement.pollution - minValue) / (maxValue - minValue)) *
+          (newMax - newMin) +
+          newMin,
+      );
+    });
+  });
+  return scaleMap;
 }
+
 export default function AnalysisPage() {
   const [analysisId, setAnalysisId] = useState<string | undefined>(undefined);
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
   const [error, setError] = useState<string | null>(null);
-
+  const [scaleMap, setScaleMap] = useState<Map<string, number> | null>(null);
   const [drawerOptions, setDrawerOptions] = useState<{
     measurement: Measurement;
     sensor: Sensor;
@@ -62,6 +79,7 @@ export default function AnalysisPage() {
         })
         .then((analysis) => {
           setAnalysis(analysis);
+          setScaleMap(fillScaleMap(analysis.sensors));
         })
         .catch((error) => {
           setError(error.message);
@@ -125,6 +143,12 @@ export default function AnalysisPage() {
               <Typography.Text>{`Latitude: ${drawerOptions.measurement.location.lat}, Longitude: ${drawerOptions.measurement.location.lng}`}</Typography.Text>
             </Space>
             <Space direction={"vertical"} style={{ width: "100%" }}>
+              <Typography.Text strong>Pollution:</Typography.Text>
+              <Typography.Text>
+                {drawerOptions.measurement.pollution}
+              </Typography.Text>
+            </Space>
+            <Space direction={"vertical"} style={{ width: "100%" }}>
               <Typography.Text strong>Margin:</Typography.Text>
               <Typography.Text>
                 {drawerOptions.measurement.margin}
@@ -135,7 +159,7 @@ export default function AnalysisPage() {
       )}
       {error && <Alert type={"error"} message={error} />}
       {analysisId && !analysis && !error && <Skeleton active />}
-      {analysis && (
+      {analysis && scaleMap && (
         <>
           <Space>
             <DollarTwoTone />
@@ -157,15 +181,13 @@ export default function AnalysisPage() {
                 .map((sensor) =>
                   sensor.measurements.map((measurement) => (
                     <Marker
-                      key={`${sensor.id}-${measurement.location}`}
+                      key={`${sensor.id}-${measurement.locationId}`}
                       position={measurement.location}
                       icon={{
                         path: 0.0,
                         fillColor: sensor.color,
                         fillOpacity: 1,
-                        scale: getCircleScaleForLocationId(
-                          measurement.locationId,
-                        ),
+                        scale: scaleMap.get(measurement.locationId) ?? 10,
                         strokeWeight: 0,
                         strokeOpacity: 0,
                       }}

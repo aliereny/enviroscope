@@ -1,8 +1,8 @@
 import * as XLSX from "xlsx";
 import { Analysis, Measurement, Sensor } from "@/types";
 import { Locations } from "@/constants/locations";
-import LatLngLiteral = google.maps.LatLngLiteral;
 import distinctColors from "distinct-colors";
+import LatLngLiteral = google.maps.LatLngLiteral;
 
 function getLocation(locationId: string): LatLngLiteral {
   const location = Locations.find((item) => item.id === locationId);
@@ -59,6 +59,7 @@ export async function POST(request: Request) {
         locationId: row[0],
         location: getLocation(row[0]),
         margin: parseFloat(row[3]),
+        pollution: parseFloat(row[4]),
       };
 
       const sensor = analysis.sensors.find((sensor) => sensor.id === row[1]);

@@ -4,6 +4,7 @@ export type Measurement = {
   locationId: string;
   location: LatLngLiteral;
   margin: number;
+  pollution: number;
 };
 
 export type Sensor = {

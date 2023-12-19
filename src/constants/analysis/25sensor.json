@@ -1,77 +1,27 @@
 {
   "analysisId": "25sensor",
-  "totalAirPollutionWeightedTransportationCost": 99.34455000000003,
+  "totalAirPollutionWeightedTransportationCost": 106.35951000000003,
   "sensors": [
-    {
-      "id": "city3",
-      "measurements": [
-        {
-          "locationId": "city3",
-          "location": {
-            "lat": 38.7569,
-            "lng": 30.5387
-          },
-          "margin": 1.06165
-        },
-        {
-          "locationId": "city64",
-          "location": {
-            "lat": 38.6742,
-            "lng": 29.4059
-          },
-          "margin": 1.16369
-        }
-      ],
-      "location": {
-        "lat": 38.7569,
-        "lng": 30.5387
-      },
-      "color": "#491110"
-    },
-    {
-      "id": "city10",
-      "measurements": [
-        {
-          "locationId": "city10",
-          "location": {
-            "lat": 39.6533,
-            "lng": 27.8903
-          },
-          "margin": 1.0039
-        },
-        {
-          "locationId": "city17",
-          "location": {
-            "lat": 40.1467,
-            "lng": 26.4086
-          },
-          "margin": 1.24693
-        }
-      ],
-      "location": {
-        "lat": 39.6533,
-        "lng": 27.8903
-      },
-      "color": "#38df9b"
-    },
     {
       "id": "city11",
       "measurements": [
         {
           "locationId": "city11",
           "location": {
-            "lat": 40.1426,
-            "lng": 29.9793
+            "lat": 40.0567,
+            "lng": 29.8694
           },
-          "margin": 1.00422
+          "margin": 1.31795,
+          "pollution": 73
         },
         {
           "locationId": "city16",
           "location": {
-            "lat": 40.1885,
-            "lng": 29.061
+            "lat": 40.1824,
+            "lng": 29.067
           },
-          "margin": 1.11212
+          "margin": 1.49183,
+          "pollution": 97
         },
         {
           "locationId": "city26",
@@ -79,22 +29,24 @@
             "lat": 39.7667,
             "lng": 30.5256
           },
-          "margin": 1.14096
+          "margin": 1.57173,
+          "pollution": 110
         },
         {
           "locationId": "city43",
           "location": {
-            "lat": 39.42,
-            "lng": 29.9857
+            "lat": 39.4167,
+            "lng": 29.9833
           },
-          "margin": 1.23602
+          "margin": 1.3357,
+          "pollution": 54
         }
       ],
       "location": {
-        "lat": 40.1426,
-        "lng": 29.9793
+        "lat": 40.0567,
+        "lng": 29.8694
       },
-      "color": "#4c41bf"
+      "color": "#491110"
     },
     {
       "id": "city12",
@@ -102,59 +54,36 @@
         {
           "locationId": "city12",
           "location": {
-            "lat": 38.8855,
-            "lng": 40.4966
+            "lat": 39.0626,
+            "lng": 40.7696
           },
-          "margin": 1.10843
+          "margin": 1.01026,
+          "pollution": 13
         },
         {
           "locationId": "city49",
           "location": {
-            "lat": 38.7346,
-            "lng": 41.491
+            "lat": 38.9167,
+            "lng": 41.9833
           },
-          "margin": 1.34613
+          "margin": 1.14546,
+          "pollution": 25
         },
         {
           "locationId": "city62",
           "location": {
-            "lat": 39.1062,
-            "lng": 39.5483
+            "lat": 39.0833,
+            "lng": 39.55
           },
-          "margin": 1.18008
+          "margin": 1.12568,
+          "pollution": 22
         }
       ],
       "location": {
-        "lat": 38.8855,
-        "lng": 40.4966
+        "lat": 39.0626,
+        "lng": 40.7696
       },
-      "color": "#87cd44"
-    },
-    {
-      "id": "city13",
-      "measurements": [
-        {
-          "locationId": "city13",
-          "location": {
-            "lat": 38.4006,
-            "lng": 42.1095
-          },
-          "margin": 1.04447
-        },
-        {
-          "locationId": "city65",
-          "location": {
-            "lat": 38.5012,
-            "lng": 43.373
-          },
-          "margin": 1.37644
-        }
-      ],
-      "location": {
-        "lat": 38.4006,
-        "lng": 42.1095
-      },
-      "color": "#222e71"
+      "color": "#38df9b"
     },
     {
       "id": "city15",
@@ -165,46 +94,79 @@
             "lat": 36.8969,
             "lng": 30.7133
           },
-          "margin": 1.28952
+          "margin": 1.26229,
+          "pollution": 41
         },
         {
           "locationId": "city15",
           "location": {
-            "lat": 37.7183,
-            "lng": 30.2823
+            "lat": 37.4613,
+            "lng": 30.0365
           },
-          "margin": 1.02601
+          "margin": 1.22051,
+          "pollution": 54
         },
         {
           "locationId": "city20",
           "location": {
-            "lat": 37.783,
-            "lng": 29.0963
+            "lat": 37.7765,
+            "lng": 29.0864
           },
-          "margin": 1.25771
+          "margin": 1.26279,
+          "pollution": 47
         },
         {
           "locationId": "city32",
           "location": {
-            "lat": 37.7626,
-            "lng": 30.5537
+            "lat": 37.7648,
+            "lng": 30.5566
           },
-          "margin": 1.18797
+          "margin": 1.28252,
+          "pollution": 54
         },
         {
           "locationId": "city48",
           "location": {
-            "lat": 37.2154,
-            "lng": 28.3634
+            "lat": 37.215,
+            "lng": 28.3636
           },
-          "margin": 1.22722
+          "margin": 1.16111,
+          "pollution": 22
         }
       ],
       "location": {
-        "lat": 37.7183,
-        "lng": 30.2823
+        "lat": 37.4613,
+        "lng": 30.0365
       },
-      "color": "#dfb234"
+      "color": "#4c41bf"
+    },
+    {
+      "id": "city17",
+      "measurements": [
+        {
+          "locationId": "city10",
+          "location": {
+            "lat": 39.6484,
+            "lng": 27.8826
+          },
+          "margin": 1.36958,
+          "pollution": 59
+        },
+        {
+          "locationId": "city17",
+          "location": {
+            "lat": 40.1553,
+            "lng": 26.4142
+          },
+          "margin": 1.23077,
+          "pollution": 56
+        }
+      ],
+      "location": {
+        "lat": 40.1553,
+        "lng": 26.4142
+      },
+      "color": "#87cd44"
     },
     {
       "id": "city19",
@@ -212,41 +174,45 @@
         {
           "locationId": "city5",
           "location": {
-            "lat": 40.6565,
-            "lng": 35.8373
+            "lat": 40.6533,
+            "lng": 35.8333
           },
-          "margin": 1.11073
+          "margin": 1.47898,
+          "pollution": 94
         },
         {
           "locationId": "city18",
           "location": {
-            "lat": 40.6002,
-            "lng": 33.6162
+            "lat": 40.602,
+            "lng": 33.6137
           },
-          "margin": 1.25185
+          "margin": 1.1381,
+          "pollution": 23
         },
         {
           "locationId": "city19",
           "location": {
-            "lat": 40.5499,
-            "lng": 34.9537
+            "lat": 40.5489,
+            "lng": 34.953
           },
-          "margin": 1.24638
+          "margin": 1.48718,
+          "pollution": 106
         },
         {
           "locationId": "city60",
           "location": {
-            "lat": 40.3235,
-            "lng": 36.5522
+            "lat": 40.3333,
+            "lng": 36.55
           },
-          "margin": 1.35392
+          "margin": 1.39083,
+          "pollution": 68
         }
       ],
       "location": {
-        "lat": 40.5499,
-        "lng": 34.9537
+        "lat": 40.5489,
+        "lng": 34.953
       },
-      "color": "#1883d8"
+      "color": "#222e71"
     },
     {
       "id": "city22",
@@ -254,33 +220,36 @@
         {
           "locationId": "city22",
           "location": {
-            "lat": 41.6771,
-            "lng": 26.5557
+            "lat": 41.6759,
+            "lng": 26.5587
           },
-          "margin": 1.00008
+          "margin": 1.42051,
+          "pollution": 93
         },
         {
           "locationId": "city39",
           "location": {
-            "lat": 41.7355,
-            "lng": 27.2244
+            "lat": 41.7333,
+            "lng": 27.2167
           },
-          "margin": 1.07959
+          "margin": 1.31052,
+          "pollution": 64
         },
         {
           "locationId": "city59",
           "location": {
-            "lat": 40.9781,
-            "lng": 27.5117
+            "lat": 40.9833,
+            "lng": 27.5167
           },
-          "margin": 1.2716
+          "margin": 1.87426,
+          "pollution": 155
         }
       ],
       "location": {
-        "lat": 41.6771,
-        "lng": 26.5557
+        "lat": 41.6759,
+        "lng": 26.5587
       },
-      "color": "#ac3511"
+      "color": "#dfb234"
     },
     {
       "id": "city27",
@@ -288,49 +257,54 @@
         {
           "locationId": "city27",
           "location": {
-            "lat": 37.066,
-            "lng": 37.3781
+            "lat": 37.0662,
+            "lng": 37.3833
           },
-          "margin": 1.35593
+          "margin": 1.70769,
+          "pollution": 149
         },
         {
           "locationId": "city46",
           "location": {
-            "lat": 37.5753,
-            "lng": 36.9228
+            "lat": 37.5736,
+            "lng": 36.937
           },
-          "margin": 1.65878
+          "margin": 1.83822,
+          "pollution": 156
         },
         {
           "locationId": "city63",
           "location": {
-            "lat": 37.1674,
-            "lng": 38.7955
+            "lat": 37.1671,
+            "lng": 38.7939
           },
-          "margin": 1.4698
+          "margin": 1.81537,
+          "pollution": 154
         },
         {
           "locationId": "city79",
           "location": {
-            "lat": 36.7165,
-            "lng": 37.1147
+            "lat": 36.7184,
+            "lng": 37.1212
           },
-          "margin": 1.47828
+          "margin": 1.35142,
+          "pollution": 67
         },
         {
           "locationId": "city80",
           "location": {
-            "lat": 37.0746,
-            "lng": 36.2464
+            "lat": 37.213,
+            "lng": 36.1763
           },
-          "margin": 1.34991
+          "margin": 1.65798,
+          "pollution": 125
         }
       ],
       "location": {
-        "lat": 37.066,
-        "lng": 37.3781
+        "lat": 37.0662,
+        "lng": 37.3833
       },
-      "color": "#4aebf4"
+      "color": "#1883d8"
     },
     {
       "id": "city33",
@@ -338,41 +312,45 @@
         {
           "locationId": "city1",
           "location": {
-            "lat": 36.9914,
-            "lng": 35.3308
+            "lat": 37,
+            "lng": 35.3213
           },
-          "margin": 1.42991
+          "margin": 1.17737,
+          "pollution": 35
         },
         {
           "locationId": "city31",
           "location": {
-            "lat": 36.2023,
-            "lng": 36.1613
+            "lat": 36.2061,
+            "lng": 36.15
           },
-          "margin": 1.49124
+          "margin": 3.13695,
+          "pollution": 401
         },
         {
           "locationId": "city33",
           "location": {
-            "lat": 36.8121,
-            "lng": 34.6415
+            "lat": 36.7951,
+            "lng": 34.6178
           },
-          "margin": 1.17112
+          "margin": 1.30769,
+          "pollution": 71
         },
         {
           "locationId": "city70",
           "location": {
-            "lat": 37.181,
-            "lng": 33.2222
+            "lat": 37.1759,
+            "lng": 33.2288
           },
-          "margin": 1.27648
+          "margin": 1.1864,
+          "pollution": 27
         }
       ],
       "location": {
-        "lat": 36.8121,
-        "lng": 34.6415
+        "lat": 36.7951,
+        "lng": 34.6178
       },
-      "color": "#e2556d"
+      "color": "#ac3511"
     },
     {
       "id": "city35",
@@ -380,33 +358,36 @@
         {
           "locationId": "city9",
           "location": {
-            "lat": 37.838,
-            "lng": 27.8456
+            "lat": 37.856,
+            "lng": 27.8416
           },
-          "margin": 1.29004
+          "margin": 1.31924,
+          "pollution": 52
         },
         {
           "locationId": "city35",
           "location": {
-            "lat": 38.4237,
-            "lng": 27.1428
+            "lat": 38.4192,
+            "lng": 27.1287
           },
-          "margin": 1.014
+          "margin": 1.18462,
+          "pollution": 47
         },
         {
           "locationId": "city45",
           "location": {
-            "lat": 38.614,
-            "lng": 27.4296
+            "lat": 38.6191,
+            "lng": 27.4289
           },
-          "margin": 1.08579
+          "margin": 1.25001,
+          "pollution": 52
         }
       ],
       "location": {
-        "lat": 38.4237,
-        "lng": 27.1428
+        "lat": 38.4192,
+        "lng": 27.1287
       },
-      "color": "#256f2b"
+      "color": "#4aebf4"
     },
     {
       "id": "city44",
@@ -414,33 +395,36 @@
         {
           "locationId": "city2",
           "location": {
-            "lat": 37.7636,
-            "lng": 38.2773
+            "lat": 37.7648,
+            "lng": 38.2766
           },
-          "margin": 1.41389
+          "margin": 1.11636,
+          "pollution": 13
         },
         {
           "locationId": "city23",
           "location": {
-            "lat": 38.6748,
-            "lng": 39.2225
+            "lat": 38.6753,
+            "lng": 39.2279
           },
-          "margin": 1.35115
+          "margin": 1.1135,
+          "pollution": 18
         },
         {
           "locationId": "city44",
           "location": {
-            "lat": 38.3554,
-            "lng": 38.3335
+            "lat": 38.3552,
+            "lng": 38.3095
           },
-          "margin": 1.35091
+          "margin": 1.22564,
+          "pollution": 55
         }
       ],
       "location": {
-        "lat": 38.3554,
-        "lng": 38.3335
+        "lat": 38.3552,
+        "lng": 38.3095
       },
-      "color": "#d49ae5"
+      "color": "#e2556d"
     },
     {
       "id": "city50",
@@ -448,41 +432,45 @@
         {
           "locationId": "city38",
           "location": {
-            "lat": 38.7205,
-            "lng": 35.4826
+            "lat": 38.7312,
+            "lng": 35.4787
           },
-          "margin": 1.42699
+          "margin": 1.11214,
+          "pollution": 24
         },
         {
           "locationId": "city40",
           "location": {
-            "lat": 39.1461,
-            "lng": 34.1595
+            "lat": 39.15,
+            "lng": 34.1667
           },
-          "margin": 1.20488
+          "margin": 1.12298,
+          "pollution": 18
         },
         {
           "locationId": "city50",
           "location": {
-            "lat": 38.6247,
-            "lng": 34.7142
+            "lat": 38.6939,
+            "lng": 34.6857
           },
-          "margin": 1.08401
+          "margin": 1.06154,
+          "pollution": 23
         },
         {
           "locationId": "city68",
           "location": {
-            "lat": 38.3686,
-            "lng": 34.0297
+            "lat": 38.3725,
+            "lng": 34.0259
           },
-          "margin": 1.17383
+          "margin": 1.27395,
+          "pollution": 51
         }
       ],
       "location": {
-        "lat": 38.6247,
-        "lng": 34.7142
+        "lat": 38.6939,
+        "lng": 34.6857
       },
-      "color": "#10300f"
+      "color": "#256f2b"
     },
     {
       "id": "city51",
@@ -490,25 +478,27 @@
         {
           "locationId": "city42",
           "location": {
-            "lat": 37.8746,
-            "lng": 32.4932
+            "lat": 37.8714,
+            "lng": 32.4846
           },
-          "margin": 1.29647
+          "margin": 1.37716,
+          "pollution": 60
         },
         {
           "locationId": "city51",
           "location": {
-            "lat": 37.9698,
-            "lng": 34.6766
+            "lat": 37.9667,
+            "lng": 34.6833
           },
-          "margin": 1.04383
+          "margin": 1.0359,
+          "pollution": 18
         }
       ],
       "location": {
-        "lat": 37.9698,
-        "lng": 34.6766
+        "lat": 37.9667,
+        "lng": 34.6833
       },
-      "color": "#f3c1db"
+      "color": "#d49ae5"
     },
     {
       "id": "city52",
@@ -516,33 +506,36 @@
         {
           "locationId": "city28",
           "location": {
-            "lat": 40.9175,
-            "lng": 38.3927
+            "lat": 40.9128,
+            "lng": 38.3895
           },
-          "margin": 1.06439
+          "margin": 1.19586,
+          "pollution": 43
         },
         {
           "locationId": "city52",
           "location": {
-            "lat": 40.9862,
-            "lng": 37.8797
+            "lat": 40.9839,
+            "lng": 37.8769
           },
-          "margin": 1.00223
+          "margin": 1.10256,
+          "pollution": 31
         },
         {
           "locationId": "city55",
           "location": {
-            "lat": 41.2797,
-            "lng": 36.3361
+            "lat": 41.2867,
+            "lng": 36.33
           },
-          "margin": 1.21149
+          "margin": 1.31863,
+          "pollution": 53
         }
       ],
       "location": {
-        "lat": 40.9862,
-        "lng": 37.8797
+        "lat": 40.9839,
+        "lng": 37.8769
       },
-      "color": "#161e23"
+      "color": "#10300f"
     },
     {
       "id": "city54",
@@ -550,10 +543,11 @@
         {
           "locationId": "city14",
           "location": {
-            "lat": 40.7325,
-            "lng": 31.6082
+            "lat": 40.576,
+            "lng": 31.5788
           },
-          "margin": 1.15538
+          "margin": 1.66008,
+          "pollution": 125
         },
         {
           "locationId": "city34",
@@ -561,46 +555,51 @@
             "lat": 41.0082,
             "lng": 28.9784
           },
-          "margin": 1.18426
+          "margin": 1.28108,
+          "pollution": 48
         },
         {
           "locationId": "city41",
           "location": {
-            "lat": 40.7654,
-            "lng": 29.9408
+            "lat": 40.8533,
+            "lng": 29.8815
           },
-          "margin": 1.06796
+          "margin": 1.4382,
+          "pollution": 90
         },
         {
           "locationId": "city54",
           "location": {
-            "lat": 40.7889,
-            "lng": 30.406
+            "lat": 40.7569,
+            "lng": 30.3781
           },
-          "margin": 1.00103
+          "margin": 1.5641,
+          "pollution": 121
         },
         {
           "locationId": "city77",
           "location": {
-            "lat": 40.6549,
-            "lng": 29.2842
+            "lat": 40.65,
+            "lng": 29.25
           },
-          "margin": 1.14045
+          "margin": 1.38475,
+          "pollution": 73
         },
         {
           "locationId": "city81",
           "location": {
-            "lat": 40.8387,
-            "lng": 31.1626
+            "lat": 40.8438,
+            "lng": 31.1565
           },
-          "margin": 1.09525
+          "margin": 1.76478,
+          "pollution": 151
         }
       ],
       "location": {
-        "lat": 40.7889,
-        "lng": 30.406
+        "lat": 40.7569,
+        "lng": 30.3781
       },
-      "color": "#ecba83"
+      "color": "#f3c1db"
     },
     {
       "id": "city58",
@@ -608,17 +607,18 @@
         {
           "locationId": "city58",
           "location": {
-            "lat": 39.7505,
-            "lng": 37.015
+            "lat": 39.7477,
+            "lng": 37.0179
           },
-          "margin": 1.17096
+          "margin": 1.28205,
+          "pollution": 66
         }
       ],
       "location": {
-        "lat": 39.7505,
-        "lng": 37.015
+        "lat": 39.7477,
+        "lng": 37.0179
       },
-      "color": "#8b2768"
+      "color": "#161e23"
     },
     {
       "id": "city61",
@@ -626,23 +626,81 @@
         {
           "locationId": "city53",
           "location": {
-            "lat": 41.0255,
-            "lng": 40.5177
+            "lat": 41.0201,
+            "lng": 40.5234
           },
-          "margin": 1.10176
+          "margin": 1.07604,
+          "pollution": 17
         },
         {
           "locationId": "city61",
           "location": {
-            "lat": 41.0027,
-            "lng": 39.7168
+            "lat": 41.0053,
+            "lng": 39.7266
           },
-          "margin": 1.00652
+          "margin": 1.07179,
+          "pollution": 25
         }
       ],
       "location": {
-        "lat": 41.0027,
-        "lng": 39.7168
+        "lat": 41.0053,
+        "lng": 39.7266
+      },
+      "color": "#ecba83"
+    },
+    {
+      "id": "city64",
+      "measurements": [
+        {
+          "locationId": "city3",
+          "location": {
+            "lat": 38.7507,
+            "lng": 30.5567
+          },
+          "margin": 1.13809,
+          "pollution": 25
+        },
+        {
+          "locationId": "city64",
+          "location": {
+            "lat": 38.6823,
+            "lng": 29.4082
+          },
+          "margin": 1.07179,
+          "pollution": 25
+        }
+      ],
+      "location": {
+        "lat": 38.6823,
+        "lng": 29.4082
+      },
+      "color": "#8b2768"
+    },
+    {
+      "id": "city65",
+      "measurements": [
+        {
+          "locationId": "city13",
+          "location": {
+            "lat": 38.3938,
+            "lng": 42.123
+          },
+          "margin": 1.13524,
+          "pollution": 23
+        },
+        {
+          "locationId": "city65",
+          "location": {
+            "lat": 38.4937,
+            "lng": 43.3833
+          },
+          "margin": 1.03077,
+          "pollution": 17
+        }
+      ],
+      "location": {
+        "lat": 38.4937,
+        "lng": 43.3833
       },
       "color": "#a3c99c"
     },
@@ -652,39 +710,43 @@
         {
           "locationId": "city24",
           "location": {
-            "lat": 39.7468,
-            "lng": 39.4911
+            "lat": 39.75,
+            "lng": 39.5
           },
-          "margin": 1.35715
+          "margin": 1.33043,
+          "pollution": 56
         },
         {
           "locationId": "city25",
           "location": {
-            "lat": 39.9055,
-            "lng": 41.2658
+            "lat": 39.9334,
+            "lng": 41.2691
           },
-          "margin": 1.3774
+          "margin": 1.42124,
+          "pollution": 77
         },
         {
           "locationId": "city29",
           "location": {
-            "lat": 40.4608,
-            "lng": 39.4803
+            "lat": 40.4607,
+            "lng": 39.4819
           },
-          "margin": 1.17348
+          "margin": 1.10731,
+          "pollution": 21
         },
         {
           "locationId": "city69",
           "location": {
-            "lat": 40.2603,
-            "lng": 40.228
+            "lat": 40.2552,
+            "lng": 40.2249
           },
-          "margin": 1.07741
+          "margin": 1.02564,
+          "pollution": 16
         }
       ],
       "location": {
-        "lat": 40.2603,
-        "lng": 40.228
+        "lat": 40.2552,
+        "lng": 40.2249
       },
       "color": "#1b5669"
     },
@@ -697,28 +759,31 @@
             "lat": 39.9334,
             "lng": 32.8597
           },
-          "margin": 2.08033
+          "margin": 1.29658,
+          "pollution": 61
         },
         {
           "locationId": "city66",
           "location": {
-            "lat": 39.821,
-            "lng": 34.8086
+            "lat": 39.7167,
+            "lng": 35.1667
           },
-          "margin": 1.25597
+          "margin": 1.26071,
+          "pollution": 43
         },
         {
           "locationId": "city71",
           "location": {
-            "lat": 39.8398,
-            "lng": 33.5089
+            "lat": 39.85,
+            "lng": 33.5167
           },
-          "margin": 1.17836
+          "margin": 1.13333,
+          "pollution": 37
         }
       ],
       "location": {
-        "lat": 39.8398,
-        "lng": 33.5089
+        "lat": 39.85,
+        "lng": 33.5167
       },
       "color": "#74561c"
     },
@@ -728,39 +793,43 @@
         {
           "locationId": "city21",
           "location": {
-            "lat": 37.925,
-            "lng": 40.211
+            "lat": 37.9204,
+            "lng": 40.2306
           },
-          "margin": 1.81532
+          "margin": 1.05102,
+          "pollution": 11
         },
         {
           "locationId": "city47",
           "location": {
-            "lat": 37.3129,
-            "lng": 40.734
+            "lat": 37.3212,
+            "lng": 40.7245
           },
-          "margin": 1.33905
+          "margin": 1.19051,
+          "pollution": 28
         },
         {
           "locationId": "city56",
           "location": {
-            "lat": 37.9274,
-            "lng": 41.942
+            "lat": 37.9278,
+            "lng": 41.9408
           },
-          "margin": 1.28587
+          "margin": 1.06254,
+          "pollution": 14
         },
         {
           "locationId": "city72",
           "location": {
-            "lat": 37.8895,
-            "lng": 41.1293
+            "lat": 37.8824,
+            "lng": 41.122
           },
-          "margin": 1.49196
+          "margin": 1.21026,
+          "pollution": 52
         }
       ],
       "location": {
-        "lat": 37.8895,
-        "lng": 41.1293
+        "lat": 37.8824,
+        "lng": 41.122
       },
       "color": "#59c1f2"
     },
@@ -770,23 +839,25 @@
         {
           "locationId": "city30",
           "location": {
-            "lat": 37.5774,
-            "lng": 43.7368
+            "lat": 37.5744,
+            "lng": 43.7408
           },
-          "margin": 1.19138
+          "margin": 1.24301,
+          "pollution": 44
         },
         {
           "locationId": "city73",
           "location": {
-            "lat": 37.519,
-            "lng": 42.4537
+            "lat": 37.5139,
+            "lng": 42.4543
           },
-          "margin": 1.03779
+          "margin": 1.66154,
+          "pollution": 140
         }
       ],
       "location": {
-        "lat": 37.519,
-        "lng": 42.4537
+        "lat": 37.5139,
+        "lng": 42.4543
       },
       "color": "#4f4647"
     },
@@ -796,47 +867,52 @@
         {
           "locationId": "city37",
           "location": {
-            "lat": 41.3766,
-            "lng": 33.7765
+            "lat": 41.3887,
+            "lng": 33.7827
           },
-          "margin": 1.1841
+          "margin": 1.41787,
+          "pollution": 75
         },
         {
           "locationId": "city57",
           "location": {
-            "lat": 42.028,
-            "lng": 35.1517
+            "lat": 41.7711,
+            "lng": 34.8719
           },
-          "margin": 1.29696
+          "margin": 1.18322,
+          "pollution": 18
         },
         {
           "locationId": "city67",
           "location": {
-            "lat": 41.4535,
-            "lng": 31.7894
+            "lat": 41.4564,
+            "lng": 31.7987
           },
-          "margin": 1.07951
+          "margin": 1.49028,
+          "pollution": 99
         },
         {
           "locationId": "city74",
           "location": {
-            "lat": 41.6376,
-            "lng": 32.3338
+            "lat": 41.5911,
+            "lng": 32.3378
           },
-          "margin": 1.00199
+          "margin": 1.28205,
+          "pollution": 66
         },
         {
           "locationId": "city78",
           "location": {
-            "lat": 41.1956,
-            "lng": 32.6227
+            "lat": 41.2002,
+            "lng": 32.6157
           },
-          "margin": 1.15512
+          "margin": 1.24122,
+          "pollution": 44
         }
       ],
       "location": {
-        "lat": 41.6376,
-        "lng": 32.3338
+        "lat": 41.5911,
+        "lng": 32.3378
       },
       "color": "#d4d9d7"
     },
@@ -846,31 +922,34 @@
         {
           "locationId": "city8",
           "location": {
-            "lat": 41.1809,
-            "lng": 41.8208
+            "lat": 41.1837,
+            "lng": 41.8183
           },
-          "margin": 1.21266
+          "margin": 1.06722,
+          "pollution": 14
         },
         {
           "locationId": "city36",
           "location": {
-            "lat": 40.6013,
-            "lng": 43.0975
+            "lat": 40.6167,
+            "lng": 43.1
           },
-          "margin": 1.30018
+          "margin": 1.31205,
+          "pollution": 54
         },
         {
           "locationId": "city75",
           "location": {
-            "lat": 41.113,
-            "lng": 42.7023
+            "lat": 41.1104,
+            "lng": 42.7022
           },
-          "margin": 1.1035
+          "margin": 1.05641,
+          "pollution": 22
         }
       ],
       "location": {
-        "lat": 41.113,
-        "lng": 42.7023
+        "lat": 41.1104,
+        "lng": 42.7022
       },
       "color": "#35979c"
     },
@@ -880,23 +959,25 @@
         {
           "locationId": "city4",
           "location": {
-            "lat": 39.7191,
-            "lng": 43.0506
+            "lat": 39.7217,
+            "lng": 43.0567
           },
-          "margin": 1.29114
+          "margin": 1.27703,
+          "pollution": 52
         },
         {
           "locationId": "city76",
           "location": {
-            "lat": 39.9201,
-            "lng": 44.0436
+            "lat": 39.9236,
+            "lng": 44.045
           },
-          "margin": 1.11138
+          "margin": 1.26154,
+          "pollution": 62
         }
       ],
       "location": {
-        "lat": 39.9201,
-        "lng": 44.0436
+        "lat": 39.9236,
+        "lng": 44.045
       },
       "color": "#888082"
     }
