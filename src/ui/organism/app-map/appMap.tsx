@@ -1,8 +1,12 @@
 "use client";
-import { GoogleMap, LoadScriptNext } from "@react-google-maps/api";
+import {
+  GoogleMap,
+  GoogleMapProps,
+  LoadScriptNext,
+} from "@react-google-maps/api";
 import { CSSProperties } from "react";
 
-interface AppMapProps {
+interface AppMapProps extends GoogleMapProps {
   children?: React.ReactNode;
   center: google.maps.LatLngLiteral;
 }
@@ -13,7 +17,7 @@ const containerStyle: CSSProperties = {
 };
 
 export const AppMap: React.FC<AppMapProps> = (props) => {
-  const { children, center } = props;
+  const { children, center, ...rest } = props;
 
   return (
     <LoadScriptNext
@@ -27,6 +31,7 @@ export const AppMap: React.FC<AppMapProps> = (props) => {
           streetViewControl: false,
           mapTypeControl: false,
         }}
+        {...rest}
       >
         {children}
       </GoogleMap>

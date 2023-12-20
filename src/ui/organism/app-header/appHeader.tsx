@@ -1,6 +1,7 @@
 "use client";
 import { Layout, Menu, theme } from "antd";
 import {
+  CloudOutlined,
   FileExcelOutlined,
   PushpinOutlined,
   UserOutlined,
@@ -43,6 +44,11 @@ export const AppHeader = () => {
             key: "/",
             icon: <PushpinOutlined />,
             label: <Link href={"/"}>View Analysis</Link>,
+          },
+          {
+            key: "/live",
+            icon: <CloudOutlined />,
+            label: <Link href={"/live"}>Live</Link>,
           },
           {
             key: "/analysis/parse",
